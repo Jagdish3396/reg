@@ -49,7 +49,7 @@ public class RegistrationController {
 		boolean b = serviceI.saveStudent(student);
 		
 		
-		return null;
+		return "done";
 		
 	}
 
